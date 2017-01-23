@@ -1,0 +1,147 @@
+2017-01-23 09:49:32,249:omni        :DEBUG   : Created root logger: omni.log
+2017-01-23 09:49:32,249:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-23 09:49:32,258:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-23 09:49:32,258:omni        :DEBUG   : state: git_hash: 911b4436c439382d82ad1af82a73ffcee4bf8622
+2017-01-23 09:49:32,258:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-23 09:49:32,258:omni        :DEBUG   : state: conda_env: None
+2017-01-23 09:49:32,258:omni        :DEBUG   : cmd: omni gen-nodes --regen
+2017-01-23 09:49:32,620:omni        :DEBUG   : checking config
+2017-01-23 09:49:32,659:omni        :DEBUG   : config OK
+2017-01-23 09:49:32,659:omni        :WARNING : Disabling Python warnings
+2017-01-23 09:49:32,659:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.gen_nodes' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/gen_nodes.pyc'>
+2017-01-23 09:49:32,659:omni        :DEBUG   : catching all exceptions
+2017-01-23 09:49:32,816:omni        :DEBUG   : Using filename glob: /media/markmuetz/SAMSUNG/um_output/um10.6_runs/10day/iUM_CC2006_no_wind/work/2000??????????/atmos/atmos.pp1.nc
+2017-01-23 09:49:33,227:omni        :DEBUG   : creating node None: iUM_CC2006_no_wind/work/20000101T0000Z/atmos/atmos.pp1.nc
+2017-01-23 09:49:33,238:omni        :DEBUG   : creating node precip_ts_no_wind: precip_ts_no_wind.nc
+2017-01-23 09:49:33,241:omni        :DEBUG   : creating node shf_ts_no_wind: shf_ts_no_wind.nc
+2017-01-23 09:49:33,244:omni        :DEBUG   : creating node lhf_ts_no_wind: lhf_ts_no_wind.nc
+2017-01-23 09:49:33,244:omni        :DEBUG   : creating node evap_ts_no_wind: evap_ts_no_wind.nc
+2017-01-23 09:49:33,248:omni        :DEBUG   : creating node surf_ts_plots_no_wind: surf_ts_plots_no_wind.png
+2017-01-23 09:49:33,253:omni        :DEBUG   : creating node count_clouds_plots_w1_qcl0p001_no_wind: count_clouds_plots_w1_qcl0p001_no_wind.png
+2017-01-23 09:49:33,256:omni        :DEBUG   : Using filename glob: /media/markmuetz/SAMSUNG/um_output/um10.6_runs/10day/iUM_CC2006_weak_shear/work/2000??????????/atmos/atmos.pp1.nc
+2017-01-23 09:49:33,286:omni        :DEBUG   : creating node None: iUM_CC2006_weak_shear/work/20000101T0000Z/atmos/atmos.pp1.nc
+2017-01-23 09:49:33,293:omni        :DEBUG   : creating node precip_ts_weak_shear: precip_ts_weak_shear.nc
+2017-01-23 09:49:33,296:omni        :DEBUG   : creating node shf_ts_weak_shear: shf_ts_weak_shear.nc
+2017-01-23 09:49:33,299:omni        :DEBUG   : creating node lhf_ts_weak_shear: lhf_ts_weak_shear.nc
+2017-01-23 09:49:33,299:omni        :DEBUG   : creating node evap_ts_weak_shear: evap_ts_weak_shear.nc
+2017-01-23 09:49:33,303:omni        :DEBUG   : creating node surf_ts_plots_weak_shear: surf_ts_plots_weak_shear.png
+2017-01-23 09:49:33,308:omni        :DEBUG   : creating node count_clouds_plots_w1_qcl0p001_weak_shear: count_clouds_plots_w1_qcl0p001_weak_shear.png
+2017-01-23 09:49:33,311:omni        :DEBUG   : Using filename glob: /media/markmuetz/SAMSUNG/um_output/um10.6_runs/10day/iUM_CC2006_strong_shear/work/2000??????????/atmos/atmos.pp1.nc
+2017-01-23 09:49:33,339:omni        :DEBUG   : creating node None: iUM_CC2006_strong_shear/work/20000101T0000Z/atmos/atmos.pp1.nc
+2017-01-23 09:49:33,346:omni        :DEBUG   : creating node precip_ts_strong_shear: precip_ts_strong_shear.nc
+2017-01-23 09:49:33,349:omni        :DEBUG   : creating node shf_ts_strong_shear: shf_ts_strong_shear.nc
+2017-01-23 09:49:33,352:omni        :DEBUG   : creating node lhf_ts_strong_shear: lhf_ts_strong_shear.nc
+2017-01-23 09:49:33,353:omni        :DEBUG   : creating node evap_ts_strong_shear: evap_ts_strong_shear.nc
+2017-01-23 09:49:33,356:omni        :DEBUG   : creating node surf_ts_plots_strong_shear: surf_ts_plots_strong_shear.png
+2017-01-23 09:49:33,361:omni        :DEBUG   : creating node count_clouds_plots_w1_qcl0p001_strong_shear: count_clouds_plots_w1_qcl0p001_strong_shear.png
+2017-01-23 09:49:33,399:omni        :DEBUG   : <Node evap_ts_no_wind (id=5, status=done)>
+2017-01-23 09:49:33,399:omni        :DEBUG   : lhf_ts_no_wind
+2017-01-23 09:49:33,404:omni        :DEBUG   : <Node surf_ts_plots_no_wind (id=6, status=done)>
+2017-01-23 09:49:33,404:omni        :DEBUG   : precip_ts_no_wind
+2017-01-23 09:49:33,407:omni        :DEBUG   : evap_ts_no_wind
+2017-01-23 09:49:33,429:omni        :DEBUG   : <Node evap_ts_weak_shear (id=12, status=done)>
+2017-01-23 09:49:33,429:omni        :DEBUG   : lhf_ts_weak_shear
+2017-01-23 09:49:33,433:omni        :DEBUG   : <Node surf_ts_plots_weak_shear (id=13, status=done)>
+2017-01-23 09:49:33,434:omni        :DEBUG   : precip_ts_weak_shear
+2017-01-23 09:49:33,436:omni        :DEBUG   : evap_ts_weak_shear
+2017-01-23 09:49:33,454:omni        :DEBUG   : <Node evap_ts_strong_shear (id=19, status=done)>
+2017-01-23 09:49:33,455:omni        :DEBUG   : lhf_ts_strong_shear
+2017-01-23 09:49:33,458:omni        :DEBUG   : <Node surf_ts_plots_strong_shear (id=20, status=done)>
+2017-01-23 09:49:33,459:omni        :DEBUG   : precip_ts_strong_shear
+2017-01-23 09:49:33,460:omni        :DEBUG   : evap_ts_strong_shear
+2017-01-23 09:49:33,481:omni        :DEBUG   : settings all statuses
+2017-01-23 09:49:33,486:omni        :DEBUG   : <Group stream1_no_wind (id=1, status=None)>: None doesn't match done
+2017-01-23 09:49:33,486:omni        :DEBUG   : Updated: <Group stream1_no_wind (id=1, status=done)>
+2017-01-23 09:49:33,488:omni        :DEBUG   : <Group stream1_weak_shear (id=5, status=None)>: None doesn't match done
+2017-01-23 09:49:33,488:omni        :DEBUG   : Updated: <Group stream1_weak_shear (id=5, status=done)>
+2017-01-23 09:49:33,490:omni        :DEBUG   : <Group stream1_strong_shear (id=9, status=None)>: None doesn't match done
+2017-01-23 09:49:33,490:omni        :DEBUG   : Updated: <Group stream1_strong_shear (id=9, status=done)>
+2017-01-23 09:49:33,490:omni        :DEBUG   : <Batch batch0 (id=1, status=None)>: None doesn't match done
+2017-01-23 09:49:33,491:omni        :DEBUG   : Updated: <Batch batch0 (id=1, status=done)>
+2017-01-23 09:49:33,494:omni        :DEBUG   : <Group surf_timeseries_no_wind (id=2, status=None)>: None doesn't match done
+2017-01-23 09:49:33,494:omni        :DEBUG   : Updated: <Group surf_timeseries_no_wind (id=2, status=done)>
+2017-01-23 09:49:33,496:omni        :DEBUG   : <Group surf_timeseries_weak_shear (id=6, status=None)>: None doesn't match done
+2017-01-23 09:49:33,496:omni        :DEBUG   : Updated: <Group surf_timeseries_weak_shear (id=6, status=done)>
+2017-01-23 09:49:33,498:omni        :DEBUG   : <Group surf_timeseries_strong_shear (id=10, status=None)>: None doesn't match done
+2017-01-23 09:49:33,498:omni        :DEBUG   : Updated: <Group surf_timeseries_strong_shear (id=10, status=done)>
+2017-01-23 09:49:33,498:omni        :DEBUG   : <Batch batch1 (id=2, status=None)>: None doesn't match done
+2017-01-23 09:49:33,499:omni        :DEBUG   : Updated: <Batch batch1 (id=2, status=done)>
+2017-01-23 09:49:33,501:omni        :DEBUG   : <Group surf_ts_plots_no_wind (id=3, status=None)>: None doesn't match done
+2017-01-23 09:49:33,501:omni        :DEBUG   : Updated: <Group surf_ts_plots_no_wind (id=3, status=done)>
+2017-01-23 09:49:33,503:omni        :DEBUG   : <Group surf_ts_plots_weak_shear (id=7, status=None)>: None doesn't match done
+2017-01-23 09:49:33,503:omni        :DEBUG   : Updated: <Group surf_ts_plots_weak_shear (id=7, status=done)>
+2017-01-23 09:49:33,505:omni        :DEBUG   : <Group surf_ts_plots_strong_shear (id=11, status=None)>: None doesn't match done
+2017-01-23 09:49:33,505:omni        :DEBUG   : Updated: <Group surf_ts_plots_strong_shear (id=11, status=done)>
+2017-01-23 09:49:33,505:omni        :DEBUG   : <Batch batch2 (id=3, status=None)>: None doesn't match done
+2017-01-23 09:49:33,505:omni        :DEBUG   : Updated: <Batch batch2 (id=3, status=done)>
+2017-01-23 09:49:33,508:omni        :DEBUG   : <Group count_cloudsno_wind (id=4, status=None)>: None doesn't match done
+2017-01-23 09:49:33,508:omni        :DEBUG   : Updated: <Group count_cloudsno_wind (id=4, status=done)>
+2017-01-23 09:49:33,509:omni        :DEBUG   : <Group count_cloudsweak_shear (id=8, status=None)>: None doesn't match done
+2017-01-23 09:49:33,509:omni        :DEBUG   : Updated: <Group count_cloudsweak_shear (id=8, status=done)>
+2017-01-23 09:49:33,511:omni        :DEBUG   : <Group count_cloudsstrong_shear (id=12, status=None)>: None doesn't match done
+2017-01-23 09:49:33,511:omni        :DEBUG   : Updated: <Group count_cloudsstrong_shear (id=12, status=done)>
+2017-01-23 09:49:33,511:omni        :DEBUG   : <Batch batch3 (id=4, status=None)>: None doesn't match done
+2017-01-23 09:49:33,511:omni        :DEBUG   : Updated: <Batch batch3 (id=4, status=done)>
+2017-01-23 09:49:33,511:omni        :DEBUG   : Updating DAG
+2017-01-23 09:49:33,531:omni        :INFO    : Updated DAG
+2017-01-23 09:49:33,532:omni        :DEBUG   : <Batch batch0 (id=1, status=done)>
+2017-01-23 09:49:33,533:omni        :DEBUG   :   <Group stream1_no_wind (id=1, status=done)>
+2017-01-23 09:49:33,534:omni        :DEBUG   :     <Node atmos.pp1.nc (id=1, status=done)>
+2017-01-23 09:49:33,534:omni        :DEBUG   :   <Group stream1_weak_shear (id=5, status=done)>
+2017-01-23 09:49:33,535:omni        :DEBUG   :     <Node atmos.pp1.nc (id=8, status=done)>
+2017-01-23 09:49:33,535:omni        :DEBUG   :   <Group stream1_strong_shear (id=9, status=done)>
+2017-01-23 09:49:33,536:omni        :DEBUG   :     <Node atmos.pp1.nc (id=15, status=done)>
+2017-01-23 09:49:33,536:omni        :DEBUG   : <Batch batch1 (id=2, status=done)>
+2017-01-23 09:49:33,537:omni        :DEBUG   :   <Group surf_timeseries_no_wind (id=2, status=done)>
+2017-01-23 09:49:33,538:omni        :DEBUG   :     <Node precip_ts_no_wind (id=2, status=done)>
+2017-01-23 09:49:33,538:omni        :DEBUG   :     <Node shf_ts_no_wind (id=3, status=done)>
+2017-01-23 09:49:33,538:omni        :DEBUG   :     <Node lhf_ts_no_wind (id=4, status=done)>
+2017-01-23 09:49:33,538:omni        :DEBUG   :     <Node evap_ts_no_wind (id=5, status=done)>
+2017-01-23 09:49:33,538:omni        :DEBUG   :   <Group surf_timeseries_weak_shear (id=6, status=done)>
+2017-01-23 09:49:33,539:omni        :DEBUG   :     <Node precip_ts_weak_shear (id=9, status=done)>
+2017-01-23 09:49:33,539:omni        :DEBUG   :     <Node shf_ts_weak_shear (id=10, status=done)>
+2017-01-23 09:49:33,539:omni        :DEBUG   :     <Node lhf_ts_weak_shear (id=11, status=done)>
+2017-01-23 09:49:33,540:omni        :DEBUG   :     <Node evap_ts_weak_shear (id=12, status=done)>
+2017-01-23 09:49:33,540:omni        :DEBUG   :   <Group surf_timeseries_strong_shear (id=10, status=done)>
+2017-01-23 09:49:33,541:omni        :DEBUG   :     <Node precip_ts_strong_shear (id=16, status=done)>
+2017-01-23 09:49:33,541:omni        :DEBUG   :     <Node shf_ts_strong_shear (id=17, status=done)>
+2017-01-23 09:49:33,541:omni        :DEBUG   :     <Node lhf_ts_strong_shear (id=18, status=done)>
+2017-01-23 09:49:33,541:omni        :DEBUG   :     <Node evap_ts_strong_shear (id=19, status=done)>
+2017-01-23 09:49:33,541:omni        :DEBUG   : <Batch batch2 (id=3, status=done)>
+2017-01-23 09:49:33,542:omni        :DEBUG   :   <Group surf_ts_plots_no_wind (id=3, status=done)>
+2017-01-23 09:49:33,544:omni        :DEBUG   :     <Node surf_ts_plots_no_wind (id=6, status=done)>
+2017-01-23 09:49:33,544:omni        :DEBUG   :   <Group surf_ts_plots_weak_shear (id=7, status=done)>
+2017-01-23 09:49:33,546:omni        :DEBUG   :     <Node surf_ts_plots_weak_shear (id=13, status=done)>
+2017-01-23 09:49:33,546:omni        :DEBUG   :   <Group surf_ts_plots_strong_shear (id=11, status=done)>
+2017-01-23 09:49:33,548:omni        :DEBUG   :     <Node surf_ts_plots_strong_shear (id=20, status=done)>
+2017-01-23 09:49:33,548:omni        :DEBUG   : <Batch batch3 (id=4, status=done)>
+2017-01-23 09:49:33,549:omni        :DEBUG   :   <Group count_cloudsno_wind (id=4, status=done)>
+2017-01-23 09:49:33,549:omni        :DEBUG   :     <Node count_clouds_plots_w1_qcl0p001_no_wind (id=7, status=done)>
+2017-01-23 09:49:33,550:omni        :DEBUG   :   <Group count_cloudsweak_shear (id=8, status=done)>
+2017-01-23 09:49:33,550:omni        :DEBUG   :     <Node count_clouds_plots_w1_qcl0p001_weak_shear (id=14, status=done)>
+2017-01-23 09:49:33,551:omni        :DEBUG   :   <Group count_cloudsstrong_shear (id=12, status=done)>
+2017-01-23 09:49:33,551:omni        :DEBUG   :     <Node count_clouds_plots_w1_qcl0p001_strong_shear (id=21, status=done)>
+2017-01-23 09:49:33,552:omni        :DEBUG   : 
+2017-01-23 09:50:07,507:omni        :DEBUG   : Created root logger: omni.log
+2017-01-23 09:50:07,507:omni        :DEBUG   : omnium.__version__: 0.6.0.0-gamma-ray
+2017-01-23 09:50:07,518:omni        :DEBUG   : state: location: /home/markmuetz/projects/omnium/omnium
+2017-01-23 09:50:07,518:omni        :DEBUG   : state: git_hash: 911b4436c439382d82ad1af82a73ffcee4bf8622
+2017-01-23 09:50:07,518:omni        :DEBUG   : state: uncommitted_changes: clean
+2017-01-23 09:50:07,518:omni        :DEBUG   : state: conda_env: None
+2017-01-23 09:50:07,518:omni        :DEBUG   : cmd: omni process -fg surf_ts_plots_no_wind
+2017-01-23 09:50:07,728:omni        :DEBUG   : checking config
+2017-01-23 09:50:07,755:omni        :DEBUG   : config OK
+2017-01-23 09:50:07,756:omni        :WARNING : Disabling Python warnings
+2017-01-23 09:50:07,756:omni        :DEBUG   : running cmd: <module 'omnium.omni_cmds.process' from '/home/markmuetz/projects/omnium/omnium/omni_cmds/process.pyc'>
+2017-01-23 09:50:07,756:omni        :DEBUG   : catching all exceptions
+2017-01-23 09:50:07,779:omni        :INFO    : Processing group <Group surf_ts_plots_no_wind (id=3, status=done)>
+2017-01-23 09:50:07,781:omni        :INFO    :   Processing node <Node surf_ts_plots_no_wind (id=6, status=done)>
+2017-01-23 09:50:07,782:omni        :INFO    :     Using process plot_mass_flux_surf_timeseries
+2017-01-23 09:50:07,783:omni        :INFO    :     process_kwargs {}
+2017-01-23 09:50:08,451:omni        :DEBUG   : loading <Node surf_ts_plots_no_wind (id=6, status=done)>
+2017-01-23 09:50:08,525:omni        :DEBUG   : running <Node surf_ts_plots_no_wind (id=6, status=done)>
+2017-01-23 09:50:08,801:omni        :DEBUG   : saving <Node surf_ts_plots_no_wind (id=6, status=done)>
+2017-01-23 09:50:09,284:omni        :DEBUG   : finished <Node surf_ts_plots_no_wind (id=6, status=done)>
+2017-01-23 09:50:09,285:omni        :INFO    :   Processed <Node surf_ts_plots_no_wind (id=6, status=done)>
+2017-01-23 09:50:09,310:omni        :INFO    : All nodes statuses verified
+2017-01-23 09:50:09,310:omni        :INFO    : Processed group <Group surf_ts_plots_no_wind (id=3, status=done)>
